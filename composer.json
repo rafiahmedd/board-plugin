@@ -1,0 +1,28 @@
+{
+    "name": "wptrelloboard/wptrelloboard",
+    "type": "project",
+    "description": "The WPGlue Framework for WordPress.",
+    "keywords": [
+        "WordPress",
+        "framework",
+        "plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafi Ahmed",
+            "email": "rafi201822@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WPTrelloBoard\\App\\": "app/"
+        },
+        "classmap": [
+            "database/"
+        ]
+    },
+    "require": {
+        "as247/wp-eloquent": "^2.0"
+    }
+}
